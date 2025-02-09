@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="POST" action="https://hul.io.vn">
+        <table>
+        <tr>
+            <td><label>Họ Và Tên:</label></td>
+            <td><input type="text" name="name"/></td>
+        </tr>
+        <tr>
+            <td><label>Ngày Sinh:</label></td>
+            <td><input type="date" name="ngaysinh"/></td>
+        </tr>
+        <tr>
+            <td><label>Giới Tính:</label></td>
+            <td>
+            <input type="radio" name="gioitinh" value="Nam"/> Nam
+            <input type="radio" name="gioitinh" value="Nu"/> Nữ
+            </td>
+        </tr>
+        <tr>
+            <td><label>Số Điện Thoại:</label></td>
+            <td><input type="text" name="phone"/></td>
+        </tr>
+        <tr>
+            <td><label>Email:</label></td>
+            <td><input type="email" name="email"/></td>
+        </tr>
+        <tr>
+            <td><label>Tên Công Ty:</label></td>
+            <td><input type="text" name="tencongty"/></td>
+        </tr>
+        <tr>
+            <td><label>Vị Trí Trong Công Ty:</label></td>
+        <td>
+            <select name="vitri">
+                <option value="CEO">Giám Đốc Điều Hành (CEO)</option>
+                <option value="NhanVien">Nhân Viên</option>
+            </select>
+        </td>
+        </tr>
+        <tr>
+            <td><label>Ngành Nghề Kinh Doanh:</label></td>
+            <td><input type="text" name="nganhnghe"></td>
+        </tr>
+        <tr>
+            <td><label>Lý Do Tham Gia CLB:</label></td>
+            <td><textarea name="lydo"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Kinh Nghiệm Lãnh Đạo:</label></td>
+            <td><textarea name="kinhnghiem"></textarea></td>
+        </tr>
+        <tr>
+            <td><label>Chương Trình Sự Kiện Muốn Tham Gia:</label></td>
+            <td>
+            <input type="checkbox" name="sukien" value="Networking"> Networking
+            <input type="checkbox" name="sukien" value="Workshops"> Workshops
+            <input type="checkbox" name="sukien" value="Hoi Thao"> Hội Thảo
+            </td>
+        </tr>
+        <tr>
+            <td><label>Đăng Ký Nhận Bản Tin:</label></td>
+            <td><input type="checkbox" name="bantin" value="Có"> Có</td>
+        </tr>
+        <tr>
+            <td colspan="2" style="text-align: center;">
+            <button type="submit">Đăng Ký Hội Viên</button>
+        </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
