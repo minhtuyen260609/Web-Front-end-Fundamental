@@ -1,0 +1,38 @@
+* {
+    font-family: "Roboto";
+    font-size: 19px;
+    color: #342e2e;
+}
+
+.ex-06 h3 {
+    font-size: 35px;
+}
+/* #a24444
+#ed5054
+#4342c6 */
+.ex-06 .syntax {
+    background-color: #f5f5f5;
+    color: #da2a51;
+}
+
+.ex-06 .demo-figure {
+    text-align: center;
+    border: 3px solid green;
+    line-height: 4; 
+    margin-bottom: 20px;
+}
+
+.ex-06 .example {
+    background-color:#e5e9ed;
+    padding: 20px;
+}
+
+.example h4{
+    font-size: 28px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.example.demo-code{
+    background-color: white;
+}
