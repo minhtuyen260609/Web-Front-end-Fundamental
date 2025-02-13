@@ -1,0 +1,15 @@
+*{
+    font-family: sans-serif;
+    width: 400px;
+    margin-left: 10px;
+}
+p{
+    font-size: 25px;
+    margin-left: 15px;
+    padding-left: 5px ;
+    border-left: 5px solid #ff6116;
+    margin-bottom: 5px;
+}
+span{
+    font-weight: 600;
+}

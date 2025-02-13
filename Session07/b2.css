@@ -1,0 +1,26 @@
+table{
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #f3f2f6;
+    border-spacing: 30px;
+    width: 100%;
+}
+p{
+    font-size: 20px;
+    font-family: sans-serif;
+    color:#bc2229 ;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span{
+    font-size: 16px;
+    color: #231651;
+}
+td {
+    border: 1px solid#c1bcd1;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    background: white;
+}

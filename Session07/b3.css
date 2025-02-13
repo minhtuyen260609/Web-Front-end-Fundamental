@@ -1,0 +1,22 @@
+*{
+    margin-left: 4px;
+    font-family: sans-serif;
+}
+.ex3 img{
+    width: 3%;
+    height: 3%;
+    margin-top: 10px;
+}
+.ex3 b{
+    font-size: 200%;
+    margin-top: 0;
+}
+.ex3 h3{
+    font-size: 150%;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.ex3 p{
+    margin-top: 15px;
+    width: 48%;
+}
