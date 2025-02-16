@@ -1,0 +1,35 @@
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    color: #7c7887;
+    text-align: left;
+    width: 80%;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+.post{
+    width: 300px;
+    padding: 20px;
+    margin: 10px;
+}
+img {
+    width: 60%;
+    border-radius: 5px;
+}
+button {
+    border: 1px solid#f89393;
+    background: none;
+    padding: 5px 10px;
+    color: #f89393;
+    text-align: left;
+    border-radius: 3px;
+}
+h1{
+    font-size: 14px;
+    margin-left: 30px;
+    color: #3d4449;
+    width: 120px;
+    border-bottom: 2px solid #f56a6a;
+}
