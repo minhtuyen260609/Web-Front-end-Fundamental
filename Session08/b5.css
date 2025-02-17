@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, sans-serif;
+    font-size: 16px;
 }
 
 body {
@@ -34,6 +35,15 @@ p {
     margin-bottom: 20px;
 }
 
+.container .horizomtal-ruler {
+    border: 1px solid #ededed;
+    width: 100px;
+    height: 1px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
 .buttons {
     display: flex;
     justify-content: center;
@@ -44,7 +54,6 @@ p {
 button {
     padding: 10px 20px;
     border: none;
-    cursor: pointer;
     font-size: 14px;
     border-radius: 5px;
 }
@@ -67,7 +76,6 @@ button {
 .social-icons i {
     margin: 0 10px;
     color: #777;
-    cursor: pointer;
 }
 
 .credits {

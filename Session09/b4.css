@@ -1,0 +1,32 @@
+.Header{
+    background-color: #3498db;
+    color: white;
+    padding: 10px;
+}
+.Footer{
+    background-color: #9b59b6;
+    color: white;
+    padding: 10px;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 0;
+}
+.body .Sidebar{
+    background-color: #2ecc71;
+    padding-bottom: 350px;
+    padding-right: 250px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-right: 10px;
+    color: white;
+}
+.body .Content{
+    background-color:#e74c3c;
+    padding-bottom: 350px;
+    width: 100%;
+    padding-left: 10px;
+    padding-top: 10px;
+    color: white;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    border: 2px solid #000000;
+    margin-left: 50px;
+}
+
+.container .child {
+    background-color: #3498db;
+    width: 150px;
+    height: 150px;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    line-height: 150px;
+    margin-left: 175px;
+}
