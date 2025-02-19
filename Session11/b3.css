@@ -1,0 +1,156 @@
+nav {
+    background-color: #a60162;
+    height: 250px;
+    width: 97%;
+    margin: 15px 15px;
+}
+
+.r1 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 15px 15px;
+}
+
+.r1 div {
+    height: 125px;
+    width: calc(25% - 15px);
+    background-color: #db317f;
+}
+
+.r2 {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 15px 15px;
+}
+
+.r2 div {
+    height: 125px;
+    width: calc(50% - 15px);
+    height: 200px;
+    background-color: #de5d9e;
+}
+
+section {
+    background-color: #ed7bb8;
+    height: 250px;
+    width: 97%;
+    margin: 15px 15px;
+}
+
+@media screen and (max-width: 1200px) {
+    nav {
+        height: 250px;
+        width: 94%;
+    }
+
+    .r1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .r2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .r1 div:nth-of-type(1) {
+        height: 125px;
+        width: calc(50% - 15px);
+        background-color: #db317f;
+    }
+
+    .r1 div:nth-of-type(2) {
+        height: 125px;
+        width: calc(50% - 15px);
+        background-color: #db317f;
+    }
+
+    .r1 div:nth-of-type(3) {
+        height: 125px;
+        width: calc(50% - 15px);
+        background-color: #db317f;
+    }
+
+    .r1 div:nth-of-type(4) {
+        height: 125px;
+        width: calc(50% - 15px);
+        background-color: #db317f;
+    }
+
+    .r2 div:nth-of-type(1) {
+        height: 200px;
+        width: 98%;
+        background-color: #de5d9e;
+    }
+
+    .r2 div:nth-of-type(2) {
+        height: 200px;
+        width: 98%;
+        background-color: #de5d9e;
+    }
+
+    section {
+        height: 170px;
+        width: 94%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    nav {
+        height: 175px;
+        width: 94%;
+    }
+
+    .r1 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .r2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .r1 div:nth-of-type(1) {
+        height: 150px;
+        width: 100%;
+        background-color: #db317f;
+    }
+
+    .r1 div:nth-of-type(2) {
+        height: 150px;
+        width: 100%;
+        background-color: #db317f;
+    }
+
+    .r1 div:nth-of-type(3) {
+        height: 150px;
+        width: 100%;
+        background-color: #db317f;
+    }
+
+    .r1 div:nth-of-type(4) {
+        height: 150px;
+        width: 100%;
+        background-color: #db317f;
+    }
+
+    .r2 div:nth-of-type(1) {
+        height: 150px;
+        width: 100%;
+        background-color: #de5d9e;
+    }
+
+    .r2 div:nth-of-type(2) {
+        height: 150px;
+        width: 100%;
+        background-color: #de5d9e;
+    }
+
+    section {
+        height: 150px;
+        width: 94%;
+    }
+}
