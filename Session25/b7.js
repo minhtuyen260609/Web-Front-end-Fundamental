@@ -4,7 +4,7 @@ function upperCasing(str) {
         return;
     }
     str = str.toLowerCase();
-    let result = ""; 
+    let result = "";
     for (let i = 0; i < str.length; i++) {
         if (i === 0 || (str[i - 1] === " " && str[i] !== " ")) {
             result += str[i].toUpperCase();
@@ -12,7 +12,6 @@ function upperCasing(str) {
             result += str[i];
         }
     }
-
     alert(result);
 }
 let str = prompt("Mời nhập chuỗi:");
