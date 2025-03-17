@@ -1,5 +1,5 @@
-let employees = [] // Danh sách nhân viên
-
+let employees = []
+let choice
 let menu = 
 `
 Quản lý nhân viên:
@@ -9,9 +9,7 @@ Quản lý nhân viên:
 4. Tìm kiếm nhân viên theo tên
 5. Thoát chương trình
 Lựa chọn của bạn: 
-`
-
-
+` 
 function themNhanVien() {
     let id = prompt("Nhập id:")
     let name = prompt("Nhập tên:")
@@ -73,8 +71,9 @@ function timKiemNhanVien() {
         console.log("Không tìm thấy nhân viên.")
     }
 }
+
 do {
-    let choice = +prompt(menu)
+    choice = +prompt(menu)
     switch (choice) {
         case 1:
             themNhanVien()
@@ -94,4 +93,4 @@ do {
         default:
             console.log("Lựa chọn không hợp lệ.")
     }
-} while (choice === 5);
+} while (choice !== 5);
