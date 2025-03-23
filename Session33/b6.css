@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6f2ff;
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    color: #0066cc;
+}
+
+input,
+button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.weather {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    text-align: left;
+}
+
+.icon {
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+    margin-top: 20px;
+}
