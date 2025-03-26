@@ -1,0 +1,49 @@
+body{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    box-shadow: 0px 4px 8px 3px rgba(0, 0, 0, 0.2)
+
+}
+h2{
+    text-align: center;
+}
+input{
+    width: 120px;
+    border: 1px solid rgb(166, 166, 166);
+    height: 30px;
+    border-radius: 3px;
+    padding: 5px;
+}
+select{
+    border: 1px solid rgb(166, 166, 166);
+    height: 42px;
+    border-radius: 3px;
+    padding: 5px;
+}
+form{
+    margin-bottom: 15px;
+}
+table{
+    font-size: 15px;
+    width: 100%;
+    border: none;
+}
+.thead{
+    background-color: rgb(233, 230, 230);
+}
+td{
+    border-bottom: 1px solid rgb(209, 207, 207) ;
+}
+#submitBtn{
+    height: 40px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background-color: rgb(53, 103, 251);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./b2.css">
+</head>
+
+<body>
+    <div>
+        <div class="container">
+            <h2>Task Management</h2>
+            <form action>
+                <input type="text" id="content" placeholder="Content">
+                <input type="date" id="date">
+                <select name="status" id="status">
+                    <option value selected disabled hidden>Choose status</option>
+                    <option value="Pending">Pending</option>
+                    <option value="Approved">Approved</option>
+                    <option value="DisApproved">Disapproved</option>
+                </select>
+                <input type="text" id="user" placeholder="Username">
+                <button id="submitBtn">Submit</button>
+            </form>
+            <table id="infoTable" cellspacing="0" cellpadding="6">
+                <tr class="thead">
+                    <td><b>#</b></td>
+                    <td><b>Content</b></td>
+                    <td><b>Due date</b></td>
+                    <td><b>Status</b></td>
+                    <td><b>Assigned to</b></td>
+                    <td><b>Action</b></td>
+                </tr>
+            </table>
+        </div>
+
+        <script src="./b2.js"></script>
+</body>
+
+</html>
